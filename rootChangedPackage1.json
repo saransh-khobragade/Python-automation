@@ -1,0 +1,1291 @@
+{
+    "majorVersions": {},
+    "minorVersions": {
+        "utility-types": {
+            "boltVersion": "3.10.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/utility-types/package.json",
+            "yarn3Version": "3.11.0",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/utility-types/package.json"
+        },
+        "@babel/core": {
+            "boltVersion": "7.13.16",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@babel/core/package.json",
+            "yarn3Version": "7.23.9",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@babel/core/package.json"
+        },
+        "bpmn-js": {
+            "boltVersion": "8.7.3",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/bpmn-js/package.json",
+            "yarn3Version": "8.10.0",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/bpmn-js/package.json"
+        },
+        "@atlaskit/tooltip": {
+            "boltVersion": "17.2.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@atlaskit/tooltip/package.json",
+            "yarn3Version": "17.8.10",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@atlaskit/tooltip/package.json"
+        },
+        "aws-sdk": {
+            "boltVersion": "2.919.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/aws-sdk/package.json",
+            "yarn3Version": "2.1546.0",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/aws-sdk/package.json"
+        },
+        "redux": {
+            "boltVersion": "4.1.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/redux/package.json",
+            "yarn3Version": "4.2.1",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/redux/package.json"
+        },
+        "apollo-server-core": {
+            "boltVersion": "3.7.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/apollo-server-core/package.json",
+            "yarn3Version": "3.13.0",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/apollo-server-core/package.json"
+        },
+        "hot-shots": {
+            "boltVersion": "8.3.1",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/hot-shots/package.json",
+            "yarn3Version": "8.5.2",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/hot-shots/package.json"
+        },
+        "@atlaskit/toggle": {
+            "boltVersion": "12.3.1",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@atlaskit/toggle/package.json",
+            "yarn3Version": "12.6.11",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@atlaskit/toggle/package.json"
+        },
+        "express-hbs": {
+            "boltVersion": "2.4.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/express-hbs/package.json",
+            "yarn3Version": "2.5.0",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/express-hbs/package.json"
+        },
+        "@types/glob": {
+            "boltVersion": "7.1.3",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@types/glob/package.json",
+            "yarn3Version": "7.2.0",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@types/glob/package.json"
+        },
+        "@atlaskit/textfield": {
+            "boltVersion": "5.0.1",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@atlaskit/textfield/package.json",
+            "yarn3Version": "5.6.8",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@atlaskit/textfield/package.json"
+        },
+        "@atlassiansox/metal-client": {
+            "boltVersion": "1.24.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@atlassiansox/metal-client/package.json",
+            "yarn3Version": "1.25.0",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@atlassiansox/metal-client/package.json"
+        },
+        "@atlassian/commerce-ui": {
+            "boltVersion": "7.12.5",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@atlassian/commerce-ui/package.json",
+            "yarn3Version": "7.14.7",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@atlassian/commerce-ui/package.json"
+        },
+        "eslint-config-prettier": {
+            "boltVersion": "8.3.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/eslint-config-prettier/package.json",
+            "yarn3Version": "8.10.0",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/eslint-config-prettier/package.json"
+        },
+        "node-fetch": {
+            "boltVersion": "2.6.1",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/node-fetch/package.json",
+            "yarn3Version": "2.7.0",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/node-fetch/package.json"
+        },
+        "@graphql-tools/utils": {
+            "boltVersion": "7.8.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@graphql-tools/utils/package.json",
+            "yarn3Version": "7.10.0",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@graphql-tools/utils/package.json"
+        },
+        "eslint-plugin-react-hooks": {
+            "boltVersion": "4.2.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/eslint-plugin-react-hooks/package.json",
+            "yarn3Version": "4.6.0",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/eslint-plugin-react-hooks/package.json"
+        },
+        "msw-storybook-addon": {
+            "boltVersion": "1.8.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/msw-storybook-addon/package.json",
+            "yarn3Version": "1.10.0",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/msw-storybook-addon/package.json"
+        },
+        "@atlaskit/inline-message": {
+            "boltVersion": "11.1.4",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@atlaskit/inline-message/package.json",
+            "yarn3Version": "11.5.8",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@atlaskit/inline-message/package.json"
+        },
+        "react-router-dom": {
+            "boltVersion": "5.2.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/react-router-dom/package.json",
+            "yarn3Version": "5.3.4",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/react-router-dom/package.json"
+        },
+        "@emotion/babel-preset-css-prop": {
+            "boltVersion": "11.2.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@emotion/babel-preset-css-prop/package.json",
+            "yarn3Version": "11.11.0",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@emotion/babel-preset-css-prop/package.json"
+        },
+        "@atlaskit/progress-tracker": {
+            "boltVersion": "8.1.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@atlaskit/progress-tracker/package.json",
+            "yarn3Version": "8.5.5",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@atlaskit/progress-tracker/package.json"
+        },
+        "@atlaskit/tag-group": {
+            "boltVersion": "10.1.2",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@atlaskit/tag-group/package.json",
+            "yarn3Version": "10.2.6",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@atlaskit/tag-group/package.json"
+        },
+        "@cypress/webpack-preprocessor": {
+            "boltVersion": "5.9.1",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@cypress/webpack-preprocessor/package.json",
+            "yarn3Version": "5.17.1",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@cypress/webpack-preprocessor/package.json"
+        },
+        "dotenv": {
+            "boltVersion": "8.2.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/dotenv/package.json",
+            "yarn3Version": "8.6.0",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/dotenv/package.json"
+        },
+        "@babel/plugin-transform-runtime": {
+            "boltVersion": "7.13.15",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@babel/plugin-transform-runtime/package.json",
+            "yarn3Version": "7.23.9",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@babel/plugin-transform-runtime/package.json"
+        },
+        "sass-loader": {
+            "boltVersion": "13.0.2",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/sass-loader/package.json",
+            "yarn3Version": "13.3.3",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/sass-loader/package.json"
+        },
+        "eslint-plugin-react": {
+            "boltVersion": "7.23.2",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/eslint-plugin-react/package.json",
+            "yarn3Version": "7.33.2",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/eslint-plugin-react/package.json"
+        },
+        "@sentry/browser": {
+            "boltVersion": "6.10.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@sentry/browser/package.json",
+            "yarn3Version": "6.19.7",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@sentry/browser/package.json"
+        },
+        "webpack-merge": {
+            "boltVersion": "5.8.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/webpack-merge/package.json",
+            "yarn3Version": "5.10.0",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/webpack-merge/package.json"
+        },
+        "@babel/runtime": {
+            "boltVersion": "7.14.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@babel/runtime/package.json",
+            "yarn3Version": "7.23.9",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@babel/runtime/package.json"
+        },
+        "react-magnetic-di": {
+            "boltVersion": "2.2.6",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/react-magnetic-di/package.json",
+            "yarn3Version": "2.3.4",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/react-magnetic-di/package.json"
+        },
+        "eslint-plugin-jest": {
+            "boltVersion": "24.3.6",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/eslint-plugin-jest/package.json",
+            "yarn3Version": "24.7.0",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/eslint-plugin-jest/package.json"
+        },
+        "express-session": {
+            "boltVersion": "1.17.1",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/express-session/package.json",
+            "yarn3Version": "1.18.0",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/express-session/package.json"
+        },
+        "ws": {
+            "boltVersion": "8.8.1",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/ws/package.json",
+            "yarn3Version": "8.16.0",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/ws/package.json"
+        },
+        "@atlaskit/popup": {
+            "boltVersion": "1.9.3",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@atlaskit/popup/package.json",
+            "yarn3Version": "1.11.6",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@atlaskit/popup/package.json"
+        },
+        "@sentry/react": {
+            "boltVersion": "6.10.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@sentry/react/package.json",
+            "yarn3Version": "6.19.7",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@sentry/react/package.json"
+        },
+        "@atlassian/notification-test-utils": {
+            "boltVersion": "2.9.4",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@atlassian/notification-test-utils/package.json",
+            "yarn3Version": "2.18.2",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@atlassian/notification-test-utils/package.json"
+        },
+        "@atlaskit/menu": {
+            "boltVersion": "1.10.1",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@atlaskit/menu/package.json",
+            "yarn3Version": "1.11.1",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@atlaskit/menu/package.json"
+        },
+        "@graphql-tools/mock": {
+            "boltVersion": "8.1.3",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@graphql-tools/mock/package.json",
+            "yarn3Version": "8.7.20",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@graphql-tools/mock/package.json"
+        },
+        "tsm": {
+            "boltVersion": "2.2.2",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/tsm/package.json",
+            "yarn3Version": "2.3.0",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/tsm/package.json"
+        },
+        "@atlaskit/notification-indicator": {
+            "boltVersion": "9.0.3",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@atlaskit/notification-indicator/package.json",
+            "yarn3Version": "9.1.5",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@atlaskit/notification-indicator/package.json"
+        },
+        "webpack": {
+            "boltVersion": "5.76.1",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/webpack/package.json",
+            "yarn3Version": "5.90.0",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/webpack/package.json"
+        },
+        "@sentry/node": {
+            "boltVersion": "6.10.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@sentry/node/package.json",
+            "yarn3Version": "6.19.7",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@sentry/node/package.json"
+        },
+        "redux-thunk": {
+            "boltVersion": "2.3.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/redux-thunk/package.json",
+            "yarn3Version": "2.4.2",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/redux-thunk/package.json"
+        },
+        "@testing-library/jest-dom": {
+            "boltVersion": "5.12.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@testing-library/jest-dom/package.json",
+            "yarn3Version": "5.17.0",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@testing-library/jest-dom/package.json"
+        },
+        "axios-mock-adapter": {
+            "boltVersion": "1.20.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/axios-mock-adapter/package.json",
+            "yarn3Version": "1.22.0",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/axios-mock-adapter/package.json"
+        },
+        "date-fns": {
+            "boltVersion": "2.22.1",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/date-fns/package.json",
+            "yarn3Version": "2.30.0",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/date-fns/package.json"
+        },
+        "@atlassian/commerce-payment-methods": {
+            "boltVersion": "3.7.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@atlassian/commerce-payment-methods/package.json",
+            "yarn3Version": "3.8.9",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@atlassian/commerce-payment-methods/package.json"
+        },
+        "@changesets/cli": {
+            "boltVersion": "2.26.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@changesets/cli/package.json",
+            "yarn3Version": "2.27.1",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@changesets/cli/package.json"
+        },
+        "concurrently": {
+            "boltVersion": "7.3.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/concurrently/package.json",
+            "yarn3Version": "7.6.0",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/concurrently/package.json"
+        },
+        "glob": {
+            "boltVersion": "8.0.3",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/glob/package.json",
+            "yarn3Version": "8.1.0",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/glob/package.json"
+        },
+        "@typescript-eslint/parser": {
+            "boltVersion": "4.22.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@typescript-eslint/parser/package.json",
+            "yarn3Version": "4.33.0",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@typescript-eslint/parser/package.json"
+        },
+        "@emotion/react": {
+            "boltVersion": "11.1.5",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@emotion/react/package.json",
+            "yarn3Version": "11.11.3",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@emotion/react/package.json"
+        },
+        "validator": {
+            "boltVersion": "13.6.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/validator/package.json",
+            "yarn3Version": "13.11.0",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/validator/package.json"
+        },
+        "@reduxjs/toolkit": {
+            "boltVersion": "1.5.1",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@reduxjs/toolkit/package.json",
+            "yarn3Version": "1.9.7",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@reduxjs/toolkit/package.json"
+        },
+        "@babel/preset-env": {
+            "boltVersion": "7.13.15",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@babel/preset-env/package.json",
+            "yarn3Version": "7.23.9",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@babel/preset-env/package.json"
+        },
+        "express": {
+            "boltVersion": "4.17.1",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/express/package.json",
+            "yarn3Version": "4.18.2",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/express/package.json"
+        },
+        "commitlint-config-jira": {
+            "boltVersion": "1.5.1",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/commitlint-config-jira/package.json",
+            "yarn3Version": "1.6.4",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/commitlint-config-jira/package.json"
+        },
+        "@atlaskit/notification-log-client": {
+            "boltVersion": "6.0.3",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@atlaskit/notification-log-client/package.json",
+            "yarn3Version": "6.1.5",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@atlaskit/notification-log-client/package.json"
+        },
+        "react-select-event": {
+            "boltVersion": "5.3.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/react-select-event/package.json",
+            "yarn3Version": "5.5.1",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/react-select-event/package.json"
+        },
+        "sass": {
+            "boltVersion": "1.58.1",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/sass/package.json",
+            "yarn3Version": "1.70.0",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/sass/package.json"
+        },
+        "cypress": {
+            "boltVersion": "10.10.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/cypress/package.json",
+            "yarn3Version": "10.11.0",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/cypress/package.json"
+        },
+        "node-mocks-http": {
+            "boltVersion": "1.10.1",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/node-mocks-http/package.json",
+            "yarn3Version": "1.14.1",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/node-mocks-http/package.json"
+        },
+        "react-sweet-state": {
+            "boltVersion": "2.6.5",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/react-sweet-state/package.json",
+            "yarn3Version": "2.7.1",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/react-sweet-state/package.json"
+        },
+        "html-webpack-plugin": {
+            "boltVersion": "5.5.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/html-webpack-plugin/package.json",
+            "yarn3Version": "5.6.0",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/html-webpack-plugin/package.json"
+        },
+        "webpack-dev-server": {
+            "boltVersion": "4.11.1",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/webpack-dev-server/package.json",
+            "yarn3Version": "4.15.1",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/webpack-dev-server/package.json"
+        },
+        "@atlassiansox/analytics-web-client": {
+            "boltVersion": "4.14.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@atlassiansox/analytics-web-client/package.json",
+            "yarn3Version": "4.20.0",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@atlassiansox/analytics-web-client/package.json"
+        },
+        "helmet": {
+            "boltVersion": "4.5.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/helmet/package.json",
+            "yarn3Version": "4.6.0",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/helmet/package.json"
+        },
+        "@atlaskit/logo": {
+            "boltVersion": "13.4.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@atlaskit/logo/package.json",
+            "yarn3Version": "13.15.0",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@atlaskit/logo/package.json"
+        },
+        "@atlaskit/page": {
+            "boltVersion": "12.0.6",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@atlaskit/page/package.json",
+            "yarn3Version": "12.3.6",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@atlaskit/page/package.json"
+        },
+        "tsc-alias": {
+            "boltVersion": "1.5.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/tsc-alias/package.json",
+            "yarn3Version": "1.8.8",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/tsc-alias/package.json"
+        },
+        "json-rules-engine": {
+            "boltVersion": "6.1.2",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/json-rules-engine/package.json",
+            "yarn3Version": "6.5.0",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/json-rules-engine/package.json"
+        },
+        "@types/jsforce": {
+            "boltVersion": "1.9.42",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@types/jsforce/package.json",
+            "yarn3Version": "1.11.5",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@types/jsforce/package.json"
+        },
+        "@typescript-eslint/eslint-plugin": {
+            "boltVersion": "4.22.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@typescript-eslint/eslint-plugin/package.json",
+            "yarn3Version": "4.33.0",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@typescript-eslint/eslint-plugin/package.json"
+        },
+        "dayjs": {
+            "boltVersion": "1.10.5",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/dayjs/package.json",
+            "yarn3Version": "1.11.10",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/dayjs/package.json"
+        },
+        "ts-loader": {
+            "boltVersion": "9.4.2",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/ts-loader/package.json",
+            "yarn3Version": "9.5.1",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/ts-loader/package.json"
+        },
+        "@atlaskit/radio": {
+            "boltVersion": "5.0.4",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@atlaskit/radio/package.json",
+            "yarn3Version": "5.6.10",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@atlaskit/radio/package.json"
+        },
+        "babel-loader": {
+            "boltVersion": "8.2.2",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/babel-loader/package.json",
+            "yarn3Version": "8.3.0",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/babel-loader/package.json"
+        },
+        "@types/validator": {
+            "boltVersion": "13.1.3",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@types/validator/package.json",
+            "yarn3Version": "13.11.8",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@types/validator/package.json"
+        },
+        "@types/react-router-dom": {
+            "boltVersion": "5.1.7",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@types/react-router-dom/package.json",
+            "yarn3Version": "5.3.3",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@types/react-router-dom/package.json"
+        },
+        "classnames": {
+            "boltVersion": "2.3.1",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/classnames/package.json",
+            "yarn3Version": "2.5.1",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/classnames/package.json"
+        },
+        "@atlaskit/pagination": {
+            "boltVersion": "14.1.2",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@atlaskit/pagination/package.json",
+            "yarn3Version": "14.4.17",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@atlaskit/pagination/package.json"
+        },
+        "eslint-plugin-flowtype": {
+            "boltVersion": "5.7.2",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/eslint-plugin-flowtype/package.json",
+            "yarn3Version": "5.10.0",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/eslint-plugin-flowtype/package.json"
+        },
+        "@emotion/styled": {
+            "boltVersion": "11.6.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@emotion/styled/package.json",
+            "yarn3Version": "11.11.0",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@emotion/styled/package.json"
+        },
+        "graphql-tag": {
+            "boltVersion": "2.11.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/graphql-tag/package.json",
+            "yarn3Version": "2.12.6",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/graphql-tag/package.json"
+        },
+        "reselect": {
+            "boltVersion": "4.0.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/reselect/package.json",
+            "yarn3Version": "4.1.8",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/reselect/package.json"
+        },
+        "msw": {
+            "boltVersion": "1.1.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/msw/package.json",
+            "yarn3Version": "1.3.2",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/msw/package.json"
+        },
+        "body-parser": {
+            "boltVersion": "1.19.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/body-parser/package.json",
+            "yarn3Version": "1.20.2",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/body-parser/package.json"
+        },
+        "pg": {
+            "boltVersion": "8.7.1",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/pg/package.json",
+            "yarn3Version": "8.11.3",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/pg/package.json"
+        },
+        "@atlaskit/page-header": {
+            "boltVersion": "10.0.10",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@atlaskit/page-header/package.json",
+            "yarn3Version": "10.4.4",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@atlaskit/page-header/package.json"
+        },
+        "stylis": {
+            "boltVersion": "4.1.3",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/stylis/package.json",
+            "yarn3Version": "4.3.1",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/stylis/package.json"
+        },
+        "react-router": {
+            "boltVersion": "5.2.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/react-router/package.json",
+            "yarn3Version": "5.3.4",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/react-router/package.json"
+        },
+        "@types/dompurify": {
+            "boltVersion": "2.2.3",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@types/dompurify/package.json",
+            "yarn3Version": "2.4.0",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@types/dompurify/package.json"
+        },
+        "dompurify": {
+            "boltVersion": "2.3.3",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/dompurify/package.json",
+            "yarn3Version": "2.4.7",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/dompurify/package.json"
+        },
+        "@atlaskit/tokens": {
+            "boltVersion": "1.14.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@atlaskit/tokens/package.json",
+            "yarn3Version": "1.34.1",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@atlaskit/tokens/package.json"
+        },
+        "tsconfig-paths": {
+            "boltVersion": "3.9.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/tsconfig-paths/package.json",
+            "yarn3Version": "3.15.0",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/tsconfig-paths/package.json"
+        },
+        "eslint-import-resolver-typescript": {
+            "boltVersion": "2.4.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/eslint-import-resolver-typescript/package.json",
+            "yarn3Version": "2.7.1",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/eslint-import-resolver-typescript/package.json"
+        },
+        "@atlassian/notification-list": {
+            "boltVersion": "7.0.3",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@atlassian/notification-list/package.json",
+            "yarn3Version": "7.1.0",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@atlassian/notification-list/package.json"
+        },
+        "winston": {
+            "boltVersion": "3.3.3",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/winston/package.json",
+            "yarn3Version": "3.11.0",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/winston/package.json"
+        },
+        "dmn-js": {
+            "boltVersion": "11.0.2",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/dmn-js/package.json",
+            "yarn3Version": "11.1.2",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/dmn-js/package.json"
+        },
+        "@atlaskit/spinner": {
+            "boltVersion": "15.0.8",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@atlaskit/spinner/package.json",
+            "yarn3Version": "15.6.1",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@atlaskit/spinner/package.json"
+        },
+        "eslint": {
+            "boltVersion": "7.25.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/eslint/package.json",
+            "yarn3Version": "7.32.0",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/eslint/package.json"
+        },
+        "prettier": {
+            "boltVersion": "2.2.1",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/prettier/package.json",
+            "yarn3Version": "2.8.8",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/prettier/package.json"
+        },
+        "@sentry/types": {
+            "boltVersion": "6.10.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@sentry/types/package.json",
+            "yarn3Version": "6.19.7",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@sentry/types/package.json"
+        },
+        "@atlaskit/tag": {
+            "boltVersion": "11.0.11",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@atlaskit/tag/package.json",
+            "yarn3Version": "11.6.2",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@atlaskit/tag/package.json"
+        },
+        "history": {
+            "boltVersion": "5.0.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/history/package.json",
+            "yarn3Version": "5.3.0",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/history/package.json"
+        },
+        "joi": {
+            "boltVersion": "17.4.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/joi/package.json",
+            "yarn3Version": "17.12.1",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/joi/package.json"
+        },
+        "apollo-server-express": {
+            "boltVersion": "2.23.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/apollo-server-express/package.json",
+            "yarn3Version": "2.26.2",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/apollo-server-express/package.json"
+        },
+        "eslint-plugin-cypress": {
+            "boltVersion": "2.11.2",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/eslint-plugin-cypress/package.json",
+            "yarn3Version": "2.15.1",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/eslint-plugin-cypress/package.json"
+        },
+        "@atlassian/statsd-client": {
+            "boltVersion": "1.6.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@atlassian/statsd-client/package.json",
+            "yarn3Version": "1.7.0",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@atlassian/statsd-client/package.json"
+        },
+        "graphql": {
+            "boltVersion": "15.5.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/graphql/package.json",
+            "yarn3Version": "15.8.0",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/graphql/package.json"
+        },
+        "eslint-plugin-import": {
+            "boltVersion": "2.22.1",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/eslint-plugin-import/package.json",
+            "yarn3Version": "2.29.1",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/eslint-plugin-import/package.json"
+        },
+        "type": {
+            "boltVersion": "2.5.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/type/package.json",
+            "yarn3Version": "2.7.2",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/type/package.json"
+        },
+        "@databricks/sql": {
+            "boltVersion": "1.6.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@databricks/sql/package.json",
+            "yarn3Version": "1.7.1",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@databricks/sql/package.json"
+        },
+        "@opentelemetry/api": {
+            "boltVersion": "1.0.1",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@opentelemetry/api/package.json",
+            "yarn3Version": "1.7.0",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@opentelemetry/api/package.json"
+        },
+        "query-string": {
+            "boltVersion": "7.0.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/query-string/package.json",
+            "yarn3Version": "7.1.3",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/query-string/package.json"
+        },
+        "@atlaskit/link-provider": {
+            "boltVersion": "1.2.9",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@atlaskit/link-provider/package.json",
+            "yarn3Version": "1.6.14",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@atlaskit/link-provider/package.json"
+        },
+        "@atlaskit/media-core": {
+            "boltVersion": "32.2.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@atlaskit/media-core/package.json",
+            "yarn3Version": "32.3.1",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@atlaskit/media-core/package.json"
+        },
+        "css-loader": {
+            "boltVersion": "6.7.3",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/css-loader/package.json",
+            "yarn3Version": "6.9.1",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/css-loader/package.json"
+        },
+        "commitlint-plugin-jira-rules": {
+            "boltVersion": "1.5.1",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/commitlint-plugin-jira-rules/package.json",
+            "yarn3Version": "1.6.4",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/commitlint-plugin-jira-rules/package.json"
+        },
+        "@babel/preset-typescript": {
+            "boltVersion": "7.13.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@babel/preset-typescript/package.json",
+            "yarn3Version": "7.23.3",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@babel/preset-typescript/package.json"
+        },
+        "@atlaskit/textarea": {
+            "boltVersion": "4.0.2",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@atlaskit/textarea/package.json",
+            "yarn3Version": "4.7.7",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@atlaskit/textarea/package.json"
+        },
+        "filesize": {
+            "boltVersion": "6.3.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/filesize/package.json",
+            "yarn3Version": "6.4.0",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/filesize/package.json"
+        },
+        "@atlassian/notification-renderer": {
+            "boltVersion": "1.0.12",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@atlassian/notification-renderer/package.json",
+            "yarn3Version": "1.1.21",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@atlassian/notification-renderer/package.json"
+        },
+        "bodybuilder": {
+            "boltVersion": "2.4.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/bodybuilder/package.json",
+            "yarn3Version": "2.5.1",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/bodybuilder/package.json"
+        }
+    },
+    "patchVersions": {
+        "@types/express": {
+            "boltVersion": "4.17.11",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@types/express/package.json",
+            "yarn3Version": "4.17.21",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@types/express/package.json"
+        },
+        "@graphql-tools/schema": {
+            "boltVersion": "7.1.4",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@graphql-tools/schema/package.json",
+            "yarn3Version": "7.1.5",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@graphql-tools/schema/package.json"
+        },
+        "@testing-library/react": {
+            "boltVersion": "11.2.6",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@testing-library/react/package.json",
+            "yarn3Version": "11.2.7",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@testing-library/react/package.json"
+        },
+        "graphql-playground-middleware-express": {
+            "boltVersion": "1.7.22",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/graphql-playground-middleware-express/package.json",
+            "yarn3Version": "1.7.23",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/graphql-playground-middleware-express/package.json"
+        },
+        "graphql-middleware": {
+            "boltVersion": "6.1.33",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/graphql-middleware/dist/package.json",
+            "yarn3Version": "6.1.35",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/graphql-middleware/dist/package.json"
+        },
+        "jest-watch-typeahead": {
+            "boltVersion": "0.6.3",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/jest-watch-typeahead/package.json",
+            "yarn3Version": "0.6.5",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/jest-watch-typeahead/package.json"
+        },
+        "@atlassian/micro-frontend": {
+            "boltVersion": "1.3.22",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@atlassian/micro-frontend/package.json",
+            "yarn3Version": "1.3.25",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@atlassian/micro-frontend/package.json"
+        },
+        "jsforce": {
+            "boltVersion": "1.11.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/jsforce/package.json",
+            "yarn3Version": "1.11.1",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/jsforce/package.json"
+        },
+        "@types/graphql-fields": {
+            "boltVersion": "1.3.3",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@types/graphql-fields/package.json",
+            "yarn3Version": "1.3.9",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@types/graphql-fields/package.json"
+        },
+        "@types/enzyme": {
+            "boltVersion": "3.10.8",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@types/enzyme/package.json",
+            "yarn3Version": "3.10.18",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@types/enzyme/package.json"
+        },
+        "@storybook/react": {
+            "boltVersion": "6.5.15",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@storybook/react/package.json",
+            "yarn3Version": "6.5.16",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@storybook/react/package.json"
+        },
+        "@storybook/addon-interactions": {
+            "boltVersion": "6.5.15",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@storybook/addon-interactions/package.json",
+            "yarn3Version": "6.5.16",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@storybook/addon-interactions/package.json"
+        },
+        "@types/jsonwebtoken": {
+            "boltVersion": "9.0.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@types/jsonwebtoken/package.json",
+            "yarn3Version": "9.0.5",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@types/jsonwebtoken/package.json"
+        },
+        "@atlassian/parcel-packager-raw-url": {
+            "boltVersion": "2.3.1",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@atlassian/parcel-packager-raw-url/package.json",
+            "yarn3Version": "2.3.34",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@atlassian/parcel-packager-raw-url/package.json"
+        },
+        "@types/react-router": {
+            "boltVersion": "5.1.13",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@types/react-router/package.json",
+            "yarn3Version": "5.1.20",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@types/react-router/package.json"
+        },
+        "@atlassian/parcel-transformer-image": {
+            "boltVersion": "2.3.1",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@atlassian/parcel-transformer-image/package.json",
+            "yarn3Version": "2.3.34",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@atlassian/parcel-transformer-image/package.json"
+        },
+        "@types/uuid": {
+            "boltVersion": "8.3.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@types/uuid/package.json",
+            "yarn3Version": "8.3.4",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@types/uuid/package.json"
+        },
+        "@types/react": {
+            "boltVersion": "17.0.4",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@types/react/package.json",
+            "yarn3Version": "17.0.0",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@types/react/package.json"
+        },
+        "@storybook/builder-webpack4": {
+            "boltVersion": "6.5.15",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@storybook/builder-webpack4/package.json",
+            "yarn3Version": "6.5.16",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@storybook/builder-webpack4/package.json"
+        },
+        "@atlassian/parcel-transformer-typescript-types": {
+            "boltVersion": "2.3.1",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@atlassian/parcel-transformer-typescript-types/package.json",
+            "yarn3Version": "2.3.34",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@atlassian/parcel-transformer-typescript-types/package.json"
+        },
+        "@types/swagger-ui-express": {
+            "boltVersion": "4.1.2",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@types/swagger-ui-express/package.json",
+            "yarn3Version": "4.1.6",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@types/swagger-ui-express/package.json"
+        },
+        "jsonwebtoken": {
+            "boltVersion": "9.0.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/jsonwebtoken/package.json",
+            "yarn3Version": "9.0.2",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/jsonwebtoken/package.json"
+        },
+        "@types/node": {
+            "boltVersion": "17.0.14",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@types/node/package.json",
+            "yarn3Version": "17.0.45",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@types/node/package.json"
+        },
+        "@storybook/addon-essentials": {
+            "boltVersion": "6.5.15",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@storybook/addon-essentials/package.json",
+            "yarn3Version": "6.5.16",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@storybook/addon-essentials/package.json"
+        },
+        "convict": {
+            "boltVersion": "6.2.3",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/convict/package.json",
+            "yarn3Version": "6.2.4",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/convict/package.json"
+        },
+        "@types/lodash": {
+            "boltVersion": "4.14.168",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@types/lodash/package.json",
+            "yarn3Version": "4.14.202",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@types/lodash/package.json"
+        },
+        "@types/bunyan": {
+            "boltVersion": "1.8.6",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@types/bunyan/package.json",
+            "yarn3Version": "1.8.11",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@types/bunyan/package.json"
+        },
+        "eslint-plugin-prettier": {
+            "boltVersion": "3.4.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/eslint-plugin-prettier/package.json",
+            "yarn3Version": "3.4.1",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/eslint-plugin-prettier/package.json"
+        },
+        "cypress-react-selector": {
+            "boltVersion": "2.3.6",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/cypress-react-selector/package.json",
+            "yarn3Version": "2.3.20",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/cypress-react-selector/package.json"
+        },
+        "@types/redux-form": {
+            "boltVersion": "8.3.1",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@types/redux-form/package.json",
+            "yarn3Version": "8.3.10",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@types/redux-form/package.json"
+        },
+        "mime-types": {
+            "boltVersion": "2.1.32",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/mime-types/package.json",
+            "yarn3Version": "2.1.35",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/mime-types/package.json"
+        },
+        "@types/querystringify": {
+            "boltVersion": "2.0.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@types/querystringify/package.json",
+            "yarn3Version": "2.0.2",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@types/querystringify/package.json"
+        },
+        "nodemon": {
+            "boltVersion": "2.0.7",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/nodemon/package.json",
+            "yarn3Version": "2.0.22",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/nodemon/package.json"
+        },
+        "source-map-loader": {
+            "boltVersion": "4.0.1",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/source-map-loader/package.json",
+            "yarn3Version": "4.0.2",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/source-map-loader/package.json"
+        },
+        "ts-jest": {
+            "boltVersion": "26.5.5",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/ts-jest/package.json",
+            "yarn3Version": "26.5.6",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/ts-jest/package.json"
+        },
+        "@types/zipkin-context-cls": {
+            "boltVersion": "0.11.2",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@types/zipkin-context-cls/package.json",
+            "yarn3Version": "0.11.7",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@types/zipkin-context-cls/package.json"
+        },
+        "@types/moment-timezone": {
+            "boltVersion": "0.5.30",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@types/moment-timezone/package.json",
+            "yarn3Version": "0.5.13",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@types/moment-timezone/package.json"
+        },
+        "@types/multer": {
+            "boltVersion": "1.4.7",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@types/multer/package.json",
+            "yarn3Version": "1.4.11",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@types/multer/package.json"
+        },
+        "cross-fetch": {
+            "boltVersion": "3.1.4",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/cross-fetch/package.json",
+            "yarn3Version": "3.1.8",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/cross-fetch/package.json"
+        },
+        "@types/cookie-parser": {
+            "boltVersion": "1.4.2",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@types/cookie-parser/package.json",
+            "yarn3Version": "1.4.6",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@types/cookie-parser/package.json"
+        },
+        "graphql-tools": {
+            "boltVersion": "7.0.4",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/graphql-tools/package.json",
+            "yarn3Version": "7.0.5",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/graphql-tools/package.json"
+        },
+        "@atlassian/parcel-transformer-sass": {
+            "boltVersion": "2.3.1",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@atlassian/parcel-transformer-sass/package.json",
+            "yarn3Version": "2.3.34",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@atlassian/parcel-transformer-sass/package.json"
+        },
+        "@storybook/addon-actions": {
+            "boltVersion": "6.5.15",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@storybook/addon-actions/package.json",
+            "yarn3Version": "6.5.16",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@storybook/addon-actions/package.json"
+        },
+        "launchdarkly-node-server-sdk": {
+            "boltVersion": "5.14.3",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/launchdarkly-node-server-sdk/package.json",
+            "yarn3Version": "5.14.6",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/launchdarkly-node-server-sdk/package.json"
+        },
+        "@types/express-session": {
+            "boltVersion": "1.17.3",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@types/express-session/package.json",
+            "yarn3Version": "1.17.10",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@types/express-session/package.json"
+        },
+        "@types/convict": {
+            "boltVersion": "6.1.1",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@types/convict/package.json",
+            "yarn3Version": "6.1.6",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@types/convict/package.json"
+        },
+        "@types/redux-mock-store": {
+            "boltVersion": "1.0.2",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@types/redux-mock-store/package.json",
+            "yarn3Version": "1.0.6",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@types/redux-mock-store/package.json"
+        },
+        "@atlassian/parcel-transformer-webmanifest": {
+            "boltVersion": "2.3.1",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@atlassian/parcel-transformer-webmanifest/package.json",
+            "yarn3Version": "2.3.34",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@atlassian/parcel-transformer-webmanifest/package.json"
+        },
+        "cookie-parser": {
+            "boltVersion": "1.4.5",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/cookie-parser/package.json",
+            "yarn3Version": "1.4.6",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/cookie-parser/package.json"
+        },
+        "@types/hapi__joi": {
+            "boltVersion": "17.1.6",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@types/hapi__joi/package.json",
+            "yarn3Version": "17.1.14",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@types/hapi__joi/package.json"
+        },
+        "@storybook/builder-webpack5": {
+            "boltVersion": "6.5.15",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@storybook/builder-webpack5/package.json",
+            "yarn3Version": "6.5.16",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@storybook/builder-webpack5/package.json"
+        },
+        "@atlaskit/right-side-panel": {
+            "boltVersion": "0.4.4",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@atlaskit/right-side-panel/package.json",
+            "yarn3Version": "0.4.6",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@atlaskit/right-side-panel/package.json"
+        },
+        "@types/jest": {
+            "boltVersion": "26.0.23",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@types/jest/package.json",
+            "yarn3Version": "26.0.24",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@types/jest/package.json"
+        },
+        "@commitlint/cli": {
+            "boltVersion": "12.1.1",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@commitlint/cli/package.json",
+            "yarn3Version": "12.1.4",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@commitlint/cli/package.json"
+        },
+        "@types/mime-types": {
+            "boltVersion": "2.1.1",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@types/mime-types/package.json",
+            "yarn3Version": "2.1.4",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@types/mime-types/package.json"
+        },
+        "@types/react-dom": {
+            "boltVersion": "17.0.3",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@types/react-dom/package.json",
+            "yarn3Version": "17.0.11",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@types/react-dom/package.json"
+        },
+        "@types/deep-freeze": {
+            "boltVersion": "0.1.2",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@types/deep-freeze/package.json",
+            "yarn3Version": "0.1.5",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@types/deep-freeze/package.json"
+        },
+        "@types/response-time": {
+            "boltVersion": "2.3.5",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@types/response-time/package.json",
+            "yarn3Version": "2.3.8",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@types/response-time/package.json"
+        },
+        "@types/classnames": {
+            "boltVersion": "2.3.1",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@types/classnames/package.json",
+            "yarn3Version": "2.3.0",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@types/classnames/package.json"
+        },
+        "@types/bluebird": {
+            "boltVersion": "3.5.33",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@types/bluebird/package.json",
+            "yarn3Version": "3.5.42",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@types/bluebird/package.json"
+        },
+        "@types/blocked-at": {
+            "boltVersion": "1.0.1",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@types/blocked-at/package.json",
+            "yarn3Version": "1.0.4",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@types/blocked-at/package.json"
+        },
+        "redux-form": {
+            "boltVersion": "8.3.7",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/redux-form/package.json",
+            "yarn3Version": "8.3.10",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/redux-form/package.json"
+        },
+        "@storybook/addon-links": {
+            "boltVersion": "6.5.15",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@storybook/addon-links/package.json",
+            "yarn3Version": "6.5.16",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@storybook/addon-links/package.json"
+        },
+        "@atlaskit/motion": {
+            "boltVersion": "0.4.7",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@atlaskit/motion/package.json",
+            "yarn3Version": "0.4.8",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@atlaskit/motion/package.json"
+        },
+        "@testing-library/react-hooks": {
+            "boltVersion": "5.1.2",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@testing-library/react-hooks/package.json",
+            "yarn3Version": "5.1.3",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@testing-library/react-hooks/package.json"
+        },
+        "@atlaskit/table-tree": {
+            "boltVersion": "9.6.8",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@atlaskit/table-tree/package.json",
+            "yarn3Version": "9.6.11",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@atlaskit/table-tree/package.json"
+        },
+        "@types/connect-memcached": {
+            "boltVersion": "1.0.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@types/connect-memcached/package.json",
+            "yarn3Version": "1.0.3",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@types/connect-memcached/package.json"
+        },
+        "@atlaskit/heading": {
+            "boltVersion": "0.1.4",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@atlaskit/heading/package.json",
+            "yarn3Version": "0.1.18",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@atlaskit/heading/package.json"
+        },
+        "qs": {
+            "boltVersion": "6.11.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/qs/package.json",
+            "yarn3Version": "6.11.2",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/qs/package.json"
+        },
+        "connected-react-router": {
+            "boltVersion": "6.9.1",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/connected-react-router/package.json",
+            "yarn3Version": "6.9.3",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/connected-react-router/package.json"
+        },
+        "@atlaskit/panel": {
+            "boltVersion": "0.4.6",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@atlaskit/panel/package.json",
+            "yarn3Version": "0.4.10",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@atlaskit/panel/package.json"
+        },
+        "@emotion/core": {
+            "boltVersion": "10.3.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@emotion/core/package.json",
+            "yarn3Version": "10.3.1",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@emotion/core/package.json"
+        },
+        "moment-timezone": {
+            "boltVersion": "0.5.33",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/moment-timezone/package.json",
+            "yarn3Version": "0.5.44",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/moment-timezone/package.json"
+        },
+        "@types/file-saver": {
+            "boltVersion": "2.0.5",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@types/file-saver/package.json",
+            "yarn3Version": "2.0.7",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@types/file-saver/package.json"
+        },
+        "@types/jest-in-case": {
+            "boltVersion": "1.0.3",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@types/jest-in-case/package.json",
+            "yarn3Version": "1.0.9",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@types/jest-in-case/package.json"
+        },
+        "@types/bunyan-prettystream": {
+            "boltVersion": "0.1.31",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@types/bunyan-prettystream/package.json",
+            "yarn3Version": "0.1.35",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@types/bunyan-prettystream/package.json"
+        },
+        "@whatwg-node/fetch": {
+            "boltVersion": "0.5.3",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@whatwg-node/fetch/package.json",
+            "yarn3Version": "0.5.4",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@whatwg-node/fetch/package.json"
+        },
+        "babel-plugin-inline-react-svg": {
+            "boltVersion": "2.0.1",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/babel-plugin-inline-react-svg/package.json",
+            "yarn3Version": "2.0.2",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/babel-plugin-inline-react-svg/package.json"
+        },
+        "@storybook/manager-webpack4": {
+            "boltVersion": "6.5.15",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@storybook/manager-webpack4/package.json",
+            "yarn3Version": "6.5.16",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@storybook/manager-webpack4/package.json"
+        },
+        "@types/csurf": {
+            "boltVersion": "1.11.2",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@types/csurf/package.json",
+            "yarn3Version": "1.11.5",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@types/csurf/package.json"
+        },
+        "@types/memcached": {
+            "boltVersion": "2.2.7",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@types/memcached/package.json",
+            "yarn3Version": "2.2.10",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@types/memcached/package.json"
+        },
+        "url-parse": {
+            "boltVersion": "1.5.10",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/url-parse/package.json",
+            "yarn3Version": "1.5.9",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/url-parse/package.json"
+        },
+        "@atlassian/parcel": {
+            "boltVersion": "2.3.1",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@atlassian/parcel/package.json",
+            "yarn3Version": "2.3.34",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@atlassian/parcel/package.json"
+        },
+        "@storybook/manager-webpack5": {
+            "boltVersion": "6.5.15",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@storybook/manager-webpack5/package.json",
+            "yarn3Version": "6.5.16",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@storybook/manager-webpack5/package.json"
+        },
+        "@atlaskit/select": {
+            "boltVersion": "13.3.0",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/@atlaskit/select/package.json",
+            "yarn3Version": "13.3.1",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/@atlaskit/select/package.json"
+        },
+        "web-vitals": {
+            "boltVersion": "1.1.1",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/web-vitals/package.json",
+            "yarn3Version": "1.1.2",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/web-vitals/package.json"
+        },
+        "typescript": {
+            "boltVersion": "4.9.3",
+            "boltPath": "/Users/skhobragade/atlassian/bolt/css-xp/node_modules/typescript/package.json",
+            "yarn3Version": "4.9.5",
+            "yarnPath": "/Users/skhobragade/atlassian/css-xp/node_modules/typescript/package.json"
+        }
+    }
+}
