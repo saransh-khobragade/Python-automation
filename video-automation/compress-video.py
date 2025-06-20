@@ -24,38 +24,50 @@ def get_video_duration(input_path):
     except Exception as e:
         raise RuntimeError(f"Failed to get video duration: {e}")
 
-def compress_video(input_path, crf="23", preset="slow"):
+def compress_video(input_path, preset="slow", bitrate="1M", use_gpu=True, output_dir=None):
     if not os.path.isfile(input_path):
-        print(f"⚠️ File not found: {input_path}")
+        print(f"File not found: {input_path}")
         return
 
-    input_dir = os.path.dirname(input_path)
     input_filename = os.path.basename(input_path)
     name, _ = os.path.splitext(input_filename)
-    output_filename = f"{name}_compressed.mp4"  # Force .mp4 output
-    output_path = os.path.join(input_dir, output_filename)
+    output_filename = f"{name}_compressed.mp4"
+
+    if output_dir is None:
+        output_dir = os.path.dirname(input_path)
+
+    os.makedirs(output_dir, exist_ok=True)
+    output_path = os.path.join(output_dir, output_filename)
 
     try:
         total_duration = get_video_duration(input_path)
     except RuntimeError as e:
-        print(f"❌ Skipping '{input_filename}': {e}")
+        print(f"Skipping '{input_filename}': {e}")
         return
 
-    ffmpeg_cmd = [
-        "ffmpeg",
+    ffmpeg_cmd = ["ffmpeg"]
+
+    if use_gpu:
+        ffmpeg_cmd += ["-hwaccel", "cuda"]
+
+    ffmpeg_cmd += [
         "-i", input_path,
-        "-c:v", "libx265",
+        "-c:v", "hevc_nvenc" if use_gpu else "libx265",
         "-preset", preset,
-        "-x265-params", "profile=main",
-        "-crf", crf,
-        "-c:a", "copy",         # Copy audio without re-encoding
+        "-rc", "vbr",
+        "-cq", "19",
+        "-b:v", bitrate,
+        "-maxrate", "5M",
+        "-bufsize", "10M",
+        "-c:a", "aac",
+        "-b:a", "192k",
         "-y",
         "-progress", "pipe:1",
         "-nostats",
         output_path
     ]
 
-    print(f"\n🔄 Compressing: {input_filename} with CRF={crf}, preset={preset}")
+    print(f"Compressing: {input_filename} with compressed settings")
     process = subprocess.Popen(
         ffmpeg_cmd,
         stdout=subprocess.PIPE,
@@ -82,18 +94,18 @@ def compress_video(input_path, crf="23", preset="slow"):
         pbar.close()
 
         if process.returncode == 0:
-            print(f"✅ Saved to: {output_path}")
+            print(f"Saved to: {output_path}")
         else:
-            print(f"❌ ffmpeg error on {input_filename} (code {process.returncode})")
+            print(f"ffmpeg error on {input_filename} (code {process.returncode})")
 
     except Exception as e:
-        print(f"❌ Error during compression of {input_filename}: {e}")
+        print(f"Error during compression of {input_filename}: {e}")
         process.kill()
         pbar.close()
 
-def batch_compress(folder_path, crf="23", preset="slow"):
+def batch_compress(folder_path, preset="slow", bitrate="1M", use_gpu=True):
     if not os.path.isdir(folder_path):
-        print(f"❌ Invalid folder path: {folder_path}")
+        print(f"Invalid folder path: {folder_path}")
         return
 
     video_files = [
@@ -103,31 +115,35 @@ def batch_compress(folder_path, crf="23", preset="slow"):
     ]
 
     if not video_files:
-        print("📂 No video files found in the folder.")
+        print("No video files found in the folder.")
         return
 
-    print(f"\n📁 Found {len(video_files)} video(s) to compress.\n")
+    output_dir = os.path.join(folder_path, "compressed")
+    os.makedirs(output_dir, exist_ok=True)
+
+    print(f"Found {len(video_files)} video(s) to compress.\n")
     for video in video_files:
-        compress_video(video, crf, preset)
+        compress_video(video, preset, bitrate, use_gpu, output_dir)
 
 if __name__ == "__main__":
-    print("\n🎬 Batch Video Compressor (HEVC Encoding, audio copied, CRF control)\n")
+    try:
+        print("Batch Video Compressor (YouTube-Like HEVC Encoding)\n")
 
-    folder = input("📁 Enter the folder path containing video files: ").strip()
+        folder = input("Enter the folder path containing video files: ").strip()
 
-    crf = input("🎚 Enter CRF value (18-28, lower=better quality) [default: 23]: ").strip()
-    if not crf or not crf.isdigit():
-        crf = "23"
-    else:
-        crf_int = int(crf)
-        if crf_int < 18 or crf_int > 28:
-            print("⚠️ CRF out of range, defaulting to 23.")
-            crf = "23"
+        valid_presets = {"default", "slow", "medium", "fast", "hq", "hp", "ll", "llhq", "llhp", "bd"}
+        preset = input("Enter NVIDIA preset (default, slow, fast, hq, ll, etc.) [default: slow]: ").strip().lower()
+        if preset not in valid_presets:
+            print("Invalid or empty preset, defaulting to 'slow'.")
+            preset = "slow"
 
-    valid_presets = {"ultrafast", "superfast", "veryfast", "faster", "fast", "medium", "slow", "slower", "veryslow"}
-    preset = input("⚙️ Enter encoding preset (ultrafast, fast, medium, slow, veryslow) [default: slow]: ").strip().lower()
-    if preset not in valid_presets:
-        print("⚠️ Invalid or empty preset, defaulting to 'slow'.")
-        preset = "slow"
+        bitrate = input("Enter target video bitrate (e.g., 1M, 2M, 5M) [default: 1M]: ").strip()
+        if not bitrate:
+            bitrate = "1M"
 
-    batch_compress(folder, crf, preset)
+        gpu_input = input("Use GPU acceleration with NVENC? (y/n) [default: y]: ").strip().lower()
+        use_gpu = gpu_input != 'n'
+
+        batch_compress(folder, preset, bitrate, use_gpu)
+    except KeyboardInterrupt:
+        print("Process interrupted by user.")
