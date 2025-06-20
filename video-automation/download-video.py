@@ -53,7 +53,8 @@ def convert_to_mp4(input_path, delete_original=False):
         subprocess.run([
             "ffmpeg", "-y",
             "-i", input_path,
-            "-c:v", "libx264",
+            "-c:v", "libx265",
+            "-preset", "fast",
             "-c:a", "aac",
             "-strict", "experimental",
             output_path
