@@ -24,7 +24,7 @@ def get_video_duration(input_path):
     except Exception as e:
         raise RuntimeError(f"Failed to get video duration: {e}")
 
-def compress_video(input_path, preset="slow", bitrate="1M", use_gpu=True, output_dir=None):
+def compress_video(input_path, preset="default", bitrate="1M", use_gpu=True, output_dir=None):
     if not os.path.isfile(input_path):
         print(f"File not found: {input_path}")
         return
@@ -67,7 +67,7 @@ def compress_video(input_path, preset="slow", bitrate="1M", use_gpu=True, output
         output_path
     ]
 
-    print(f"Compressing: {input_filename} with compressed settings")
+    print(f"Compressing: {input_filename} with YouTube-like settings")
     process = subprocess.Popen(
         ffmpeg_cmd,
         stdout=subprocess.PIPE,
@@ -103,39 +103,37 @@ def compress_video(input_path, preset="slow", bitrate="1M", use_gpu=True, output
         process.kill()
         pbar.close()
 
-def batch_compress(folder_path, preset="slow", bitrate="1M", use_gpu=True):
+def batch_compress(folder_path, preset="default", bitrate="1M", use_gpu=True):
     if not os.path.isdir(folder_path):
         print(f"Invalid folder path: {folder_path}")
         return
 
-    video_files = [
-        os.path.join(folder_path, f)
-        for f in os.listdir(folder_path)
-        if os.path.splitext(f)[1].lower() in VIDEO_EXTENSIONS
-    ]
+    video_files = []
+    for root, _, files in os.walk(folder_path):
+        for f in files:
+            if os.path.splitext(f)[1].lower() in VIDEO_EXTENSIONS:
+                video_files.append(os.path.join(root, f))
 
     if not video_files:
         print("No video files found in the folder.")
         return
 
-    output_dir = os.path.join(folder_path, "compressed")
-    os.makedirs(output_dir, exist_ok=True)
-
     print(f"Found {len(video_files)} video(s) to compress.\n")
     for video in video_files:
+        output_dir = os.path.join(os.path.dirname(video), "compressed")
         compress_video(video, preset, bitrate, use_gpu, output_dir)
 
 if __name__ == "__main__":
     try:
-        print("Batch Video Compressor (YouTube-Like HEVC Encoding)\n")
+        print("Batch Video Compressor (HEVC Encoding)\n")
 
         folder = input("Enter the folder path containing video files: ").strip()
 
         valid_presets = {"default", "slow", "medium", "fast", "hq", "hp", "ll", "llhq", "llhp", "bd"}
-        preset = input("Enter NVIDIA preset (default, slow, fast, hq, ll, etc.) [default: slow]: ").strip().lower()
+        preset = input("Enter NVIDIA preset (default, slow, fast, hq, ll, etc.) [default: default]: ").strip().lower()
         if preset not in valid_presets:
-            print("Invalid or empty preset, defaulting to 'slow'.")
-            preset = "slow"
+            print("Invalid or empty preset, defaulting to 'default'.")
+            preset = "default"
 
         bitrate = input("Enter target video bitrate (e.g., 1M, 2M, 5M) [default: 1M]: ").strip()
         if not bitrate:
