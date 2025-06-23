@@ -1,74 +1,77 @@
 import os
-import fitz  # PyMuPDF
-from PIL import Image
 import sys
 import subprocess
 
-# Auto-install dependencies
-def auto_install(pkg):
-    subprocess.check_call([sys.executable, "-m", "pip", "install", pkg])
-
-try:
-    import fitz
-except ImportError:
-    print("📦 Installing pymupdf...")
-    auto_install("pymupdf")
-    import fitz
-
+# 📦 Auto-install Pillow if missing
 try:
     from PIL import Image
 except ImportError:
-    print("📦 Installing pillow...")
-    auto_install("pillow")
+    print("📦 Pillow not found. Installing...")
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "pillow"])
     from PIL import Image
 
-def compress_pdf_as_images(input_path, output_path=None, dpi=100, quality=40):
+def compress_jpeg_and_save_pdf(input_path, target_size=1024 * 1024):
     if not os.path.isfile(input_path):
         print("❌ File not found.")
         return
 
-    if not output_path:
-        base, _ = os.path.splitext(input_path)
-        output_path = f"{base}_compressed.pdf"
+    if not input_path.lower().endswith((".jpg", ".jpeg")):
+        print("❌ Only JPEG files are supported.")
+        return
 
-    doc = fitz.open(input_path)
-    image_list = []
+    try:
+        img = Image.open(input_path)
+    except Exception as e:
+        print(f"❌ Failed to open image: {e}")
+        return
 
-    for page_number in range(len(doc)):
-        page = doc.load_page(page_number)
-        pix = page.get_pixmap(dpi=dpi)
-        img = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
+    if img.mode != 'RGB':
+        img = img.convert('RGB')
 
-        # Compress to JPEG in-memory
-        temp = f"page_{page_number + 1}.jpg"
-        img.save(temp, "JPEG", quality=quality)
-        image_list.append(temp)
+    # Paths
+    base, _ = os.path.splitext(input_path)
+    temp_file = base + "_temp.jpg"
+    output_pdf = base + ".pdf"
 
-    # Rebuild PDF from compressed JPEGs
-    pdf_images = [Image.open(img).convert("RGB") for img in image_list]
-    pdf_images[0].save(output_path, save_all=True, append_images=pdf_images[1:])
+    # Binary search for best quality
+    min_q, max_q = 5, 95
+    best_quality = None
 
-    # Clean temp files
-    for f in image_list:
-        os.remove(f)
+    try:
+        while min_q <= max_q:
+            q = (min_q + max_q) // 2
+            img.save(temp_file, format="JPEG", quality=q, optimize=True)
+            size = os.path.getsize(temp_file)
+            print(f"🔍 Trying quality {q}: {size / 1024:.2f} KB")
 
-    size_kb = os.path.getsize(output_path) / 1024
-    print(f"\n✅ Max-compressed PDF saved: {output_path} ({size_kb:.2f} KB)")
+            if size <= target_size:
+                best_quality = q
+                min_q = q + 1
+            else:
+                max_q = q - 1
 
-# 🏃 Run
+        if best_quality:
+            img.save(temp_file, format="JPEG", quality=best_quality, optimize=True)
+            with Image.open(temp_file) as jpg_image:
+                jpg_image.convert('RGB').save(output_pdf, "PDF", resolution=100.0)
+
+            final_pdf_size = os.path.getsize(output_pdf) / 1024
+            print(f"\n✅ Saved PDF: {output_pdf} ({final_pdf_size:.2f} KB) at quality {best_quality}")
+        else:
+            print("❌ Could not compress below target size.")
+    finally:
+        if os.path.exists(temp_file):
+            os.remove(temp_file)
+
+# 🏃 Main runner
 if __name__ == "__main__":
-    input_path = input("📄 Enter path to PDF: ").strip().strip('"')
-    dpi = input("🖼️ Render DPI (default 100): ").strip()
-    quality = input("📷 JPEG quality (1–100, default 40): ").strip()
+    input_file = input("📷 Enter path to JPEG file: ").strip().strip('"')
 
+    size_mb = input("📦 Max output size in MB (default: 1): ").strip()
     try:
-        dpi = int(dpi) if dpi else 100
+        target_bytes = int(float(size_mb) * 1024 * 1024) if size_mb else 1024 * 1024
     except:
-        dpi = 100
+        print("❌ Invalid size input, defaulting to 1 MB.")
+        target_bytes = 1024 * 1024
 
-    try:
-        quality = int(quality) if quality else 40
-    except:
-        quality = 40
-
-    compress_pdf_as_images(input_path, dpi=dpi, quality=quality)
+    compress_jpeg_and_save_pdf(input_file, target_size=target_bytes)
