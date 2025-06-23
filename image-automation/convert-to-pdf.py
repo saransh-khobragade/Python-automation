@@ -49,7 +49,7 @@ def convert_image_to_pdf(input_path):
         if image.mode in ("RGBA", "P"):
             image = image.convert("RGB")
 
-        image.save(output_path, "PDF", resolution=150.0)
+        image.save(output_path, "PDF", resolution=100.0)
         print(f"✅ PDF saved: {output_path}")
     except UnidentifiedImageError:
         print(f"⚠️ Unreadable image: {input_path}")

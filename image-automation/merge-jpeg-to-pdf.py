@@ -22,7 +22,7 @@ COMMON_FORMATS = ('.jpg', '.jpeg', '.png', '.bmp', '.webp', '.tiff', '.gif', '.h
 RAW_FORMATS = ('.cr2', '.nef', '.arw', '.dng', '.orf', '.rw2', '.raf', '.sr2', '.pef', '.raw')
 ALL_FORMATS = COMMON_FORMATS + RAW_FORMATS
 
-# Resize target (A4 in pixels at 150 DPI)
+# Resize target (A4 in pixels at 100 DPI)
 A4_SIZE = (1240, 1754)
 
 def convert_raw_to_image(path):
@@ -64,7 +64,7 @@ def collect_images(path, recursive=False, resize=False):
             break
     return images
 
-def create_pdf(images, output_path="merged_output.pdf", dpi=150):
+def create_pdf(images, output_path="merged_output.pdf", dpi=100):
     if not images:
         print("❌ No images to convert.")
         return
@@ -88,7 +88,7 @@ if __name__ == "__main__":
     dpi_input = input("🎚️ Enter DPI (default 150): ").strip()
     name_input = input("📄 Output PDF name (without .pdf): ").strip()
 
-    dpi = int(dpi_input) if dpi_input.isdigit() else 150
+    dpi = int(dpi_input) if dpi_input.isdigit() else 100
     name = name_input if name_input else "merged_output"
     output_path = os.path.join(path, f"{name}.pdf")
 
